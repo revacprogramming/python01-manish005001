@@ -1,17 +1,16 @@
-# Variables, Expressions & Statements
+# Loops & Iterators
 
-sum=0
 count=0
-try:
-    while True:
-        number=input("enter the number :")
-        if number=="done":
-            break
-        sum+=int(number)
-        count+=1
+sum=0
+while True:
+    num=input("Enter the number : ")
+    if num == 'done':
+        break
+    
+    # count+=1
+    # sum+=int(num)
+    for ascending in num:
+         ascending = num.sort()
 
-    print("the sum of the enter the number is : ",sum)
-    print("total number Enter by the user is : ",count)
-    print("the average of the given number is : ",sum/count)
-except ValueError:
-    print("invalid number")
+    
+         print(ascending+0) 
