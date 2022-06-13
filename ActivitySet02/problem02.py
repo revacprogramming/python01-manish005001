@@ -1,15 +1,15 @@
 
 def add(a, b):
-    pass  # ...
+    return a+b
 
 
 def output(a, b, sum):
-    pass  # ...
+    print(f"{a} + {b} = {sum}")
 
 
 def main():
-    a, b = input_two_numbers()
-    sum = add(a, b)
+    a, b = input("enter the numbers").split()
+    sum = add(int(a), int(b))
 
     output(a, b, sum)
 
