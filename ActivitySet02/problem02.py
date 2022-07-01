@@ -8,7 +8,7 @@ def output(a, b, sum):
 
 
 def main():
-    a, b = input("enter the numbers").split()
+    a, b = input("enter the numbers = ").split()
     sum = add(int(a), int(b))
 
     output(a, b, sum)
