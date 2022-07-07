@@ -4,7 +4,7 @@ def add(a, b):
 
 
 def output(a, b, sum):
-    print(f"{a} + {b} = {sum}")
+    print(f'{a} + {b} = {sum}')
 
 
 def main():
