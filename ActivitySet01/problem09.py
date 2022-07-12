@@ -1,5 +1,5 @@
 def in_put():
-    file_name = input("Enter name of file: ")
+    file_name = input('Enter name of file: ')
     return file_name
 
 def open_file(file_name):
