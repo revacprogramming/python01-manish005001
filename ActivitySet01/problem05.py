@@ -9,7 +9,7 @@ def computpay(hr,pay):
     else:
         return hr
 
-h=int(input("enter the hour :"))
+h=int(input("Enter the hour :"))
 r=int(input("enter the rate :"))
 result=computpay(h, r)
 print(result)
