@@ -11,7 +11,7 @@ try:
         count+=1
 
     print("The sum of the enter the number is : ",sum)
-    print("total number Enter by the user is : ",count)
+    print("total number enter by the user is : ",count)
     print("the average of the given number is : ",sum/count)
 except ValueError:
     print("invalid number")
