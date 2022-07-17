@@ -10,7 +10,7 @@ try:
         sum+=int(number)
         count+=1
 
-    print("The sum of the enter the number is : ",sum)
+    print("The Sum of the enter the number is : ",sum)
     print("total number enter by the user is : ",count)
     print("the average of the given number is : ",sum/count)
 except ValueError:
