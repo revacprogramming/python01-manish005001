@@ -2,7 +2,7 @@
 
 #s=system;d=database;u=username;p=password
 def get_cs() :
-    cs = input("Enter the Connected string: ")
+    cs = input("Enter The Connected string: ")
     return cs
 def cs_to_lot(cs) :
     tupl_list = []
