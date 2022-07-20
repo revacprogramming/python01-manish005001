@@ -1,7 +1,7 @@
 # Tuples
 
 def in_put() :
-    text_name = input("enter the name of file: ")
+    text_name = input("Enter the name of file: ")
     return text_name
 
 def executefile(text_name) :
