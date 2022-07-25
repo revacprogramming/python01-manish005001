@@ -1,6 +1,6 @@
 def inp_coordinates(x):
     crd=[]
-    str = input(f"Enter three coordinates for the rectangle: ")
+    str = input(f"enter three coordinates for the rectangle: ")
     crd1=str.split()
     for ele in crd1:
         crd.append(float(ele))
