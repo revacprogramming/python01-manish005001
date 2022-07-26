@@ -1,6 +1,6 @@
 from fractions import Fraction
 def inp():
-    x=input('enter the no. of unit fractions: ')
+    x=input('Enter the no. of unit fractions: ')
     return int(x)
 
 def inp_fract(x):
